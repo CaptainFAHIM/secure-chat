@@ -1,0 +1,30 @@
+{
+  "name": "secure-chat",
+  "version": "1.0.0",
+  "description": "A secured private chat application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainFAHIM/secure-chat.git"
+  },
+  "author": "Fahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainFAHIM/secure-chat/issues"
+  },
+  "homepage": "https://github.com/CaptainFAHIM/secure-chat#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  }
+}
